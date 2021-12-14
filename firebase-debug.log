@@ -1,0 +1,86 @@
+[debug] [2021-12-13T21:23:50.126Z] ----------------------------------------------------------------------
+[debug] [2021-12-13T21:23:50.134Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-13T21:23:50.135Z] CLI Version:   9.23.1
+[debug] [2021-12-13T21:23:50.136Z] Platform:      win32
+[debug] [2021-12-13T21:23:50.136Z] Node Version:  v10.24.1
+[debug] [2021-12-13T21:23:50.139Z] Time:          Mon Dec 13 2021 15:23:50 GMT-0600 (GMT-06:00)
+[debug] [2021-12-13T21:23:50.139Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-13T21:23:50.398Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-13T21:23:50.399Z] > authorizing via signed-in user (luisfraire35@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\surtido\arka-agency
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-13T21:24:12.968Z] Using project from CLI flag: ecommerce-skeleton
+[debug] [2021-12-13T21:24:12.983Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-skeleton [none]
+[debug] [2021-12-13T21:24:13.415Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-skeleton 403
+[debug] [2021-12-13T21:24:13.416Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommerce-skeleton {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-12-13T21:24:13.417Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-12-13T21:24:13.615Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\luis\AppData\Roaming\nvm\v10.24.1\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\luis\AppData\Roaming\nvm\v10.24.1\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: Failed to get Firebase project ecommerce-skeleton. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-12-13T21:25:45.101Z] ----------------------------------------------------------------------
+[debug] [2021-12-13T21:25:45.109Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-13T21:25:45.110Z] CLI Version:   9.23.1
+[debug] [2021-12-13T21:25:45.110Z] Platform:      win32
+[debug] [2021-12-13T21:25:45.110Z] Node Version:  v10.24.1
+[debug] [2021-12-13T21:25:45.112Z] Time:          Mon Dec 13 2021 15:25:45 GMT-0600 (GMT-06:00)
+[debug] [2021-12-13T21:25:45.113Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-13T21:25:45.388Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-13T21:25:45.389Z] > authorizing via signed-in user (luisfraire35@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\surtido\arka-agency
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-13T21:25:51.569Z] Using project from CLI flag: arka-agency
+[debug] [2021-12-13T21:25:51.580Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/arka-agency [none]
+[debug] [2021-12-13T21:25:52.014Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/arka-agency 403
+[debug] [2021-12-13T21:25:52.014Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/arka-agency {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-12-13T21:25:52.015Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-12-13T21:25:52.242Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\luis\AppData\Roaming\nvm\v10.24.1\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\luis\AppData\Roaming\nvm\v10.24.1\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: Failed to get Firebase project arka-agency. Please make sure the project exists and your account has permission to access it.
